@@ -22,9 +22,13 @@
   <!--依赖仓库源-->
   <repositories>
       <repository>
-      <id>cloudera</id>
+      <id>mvnrepo</id>
       <url>https://mvnrepository.com/</url>
       </repository>
+    <repository>
+      <id>cloudera</id>
+      <url>https://repository.cloudera.com/artifactory/cloudera-repos</url>
+    </repository>
   </repositories>
   <!--所有依赖-->
   <dependencies>
